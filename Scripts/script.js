@@ -95,6 +95,7 @@ function reset() {
     if (rounds === 5) {
         return playerscore = 0,
         compscore = 0,
+        rounds = 0;
         scoreboard.textContent = '${playerscore} : ${compscore}',
         round.textContent = 'Round ${rounds + 1}/5',
         gameStatus.textContent = 'Good Luck!',
