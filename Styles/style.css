@@ -93,6 +93,13 @@ footer {
 a {
     color: #000;
 }
+.logo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0.6vh;
+    right: 2vw;
+}
 @media screen and (max-width: 555px) {
     .score {
         margin-top: 7vh;
